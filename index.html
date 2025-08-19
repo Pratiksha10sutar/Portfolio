@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pratikshasutar.com</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Favicon for browser tab -->
+  <link href="favicon.png" rel="icon">
+</head>
+<body class="bg-gray-900 text-white scroll-smooth">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-gray-800 shadow-md z-50 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold text-indigo-400">Pratiksha</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-indigo-400 transition">Home</a></li>
+        <li><a href="#about" class="hover:text-indigo-400 transition">About</a></li>
+        <li><a href="#projects" class="hover:text-indigo-400 transition">Projects</a></li>
+        <li><a href="#contact" class="hover:text-indigo-400 transition">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-b from-gray-900 to-gray-800">
+    
+  <!-- Profile Picture -->
+  <div>
+    <img src="img.png" alt="Pratiksha Sutar" class="hero-pic">
+  </div>
+    <h2 class="text-4xl md:text-6xl font-bold mb-4 fade-in">Hi, I'm <span class="text-indigo-400">Pratiksha Sutar</span></h2>
+    <p class="text-lg md:text-2xl mb-6 typewriter">B.Tech Computer Science Student | Web Developer | Java Programmer</p>
+    <a href="#contact" class="btn-glow">Hire Me</a>
+  </section>
+
+  <section id="about" class="reveal-left">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="section-title">About Me</h2>
+
+    <!-- Optional Profile Image -->
+    <img src="img.png" alt="Pratiksha Sutar" class="profile-pic">
+
+    <!-- About Card -->
+    <div class="about-card">
+      <p class="about-text">
+        I’m <b>Pratiksha Sutar</b>, a highly motivated B.Tech Computer Science student 
+        with a strong foundation in software development and data structures.  
+        Skilled in <b>Java, Python, and C</b>, with experience in frontend development 
+        using <b>HTML, CSS, and Bootstrap</b>.  
+        Passionate about building web solutions and applying technical expertise 
+        to real-world problems 🚀.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-900 reveal-right">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+
+<!-- Project 1: Career Guidance -->
+<div class="ai-studymate-card reveal-left">
+  <div class="project-img">
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Career Guidance System" class="project-img">
+    <div class="overlay">Web Development Project</div>
+  </div>
+  <div class="p-4">
+    <h3>Career Guidance System (2022)</h3>
+    <p>
+      Smart online platform to guide students in making career choices.  
+      <br><b>Tech Used:</b> HTML, CSS, PHP, MySQL  
+      <br><b>Goal:</b> Personalized career suggestions.
+    </p>
+  </div>
+</div>
+
+<!-- Project 2: Customer Churn -->
+<div class="ai-studymate-card reveal-right">
+  <div class="project-img">
+    <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=80" alt="Customer Churn Analysis" class="project-img">
+    <div class="overlay">Machine Learning Project</div>
+  </div>
+  <div class="p-4">
+    <h3>Customer Churn Analysis (2023)</h3>
+    <p>
+      Built a machine learning model to predict customer churn and help businesses reduce attrition.  
+      <br><b>Tech Used:</b> Python, Pandas, Scikit-learn, MySQL  
+      <br><b>Result:</b> Identified high-risk clients early.
+    </p>
+  </div>
+</div>
+
+<!-- Project 3: AI StudyMate -->
+<div class="ai-studymate-card reveal-bottom">
+  <div class="project-img">
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" 
+         alt="AI StudyMate Project" class="project-img">
+    <div class="overlay">AI + Productivity Project</div>
+  </div>
+  <div class="p-4">
+    <h3>AI StudyMate (2024)</h3>
+    <p>
+      An intelligent learning assistant designed to help students organize study schedules, 
+      answer questions using AI, and boost productivity.  
+      <br><b>Tech Used:</b> React.js, Tailwind CSS, Node.js, Express, MongoDB, OpenAI API  
+      <br><b>Features:</b> Smart Q&A, personalized study plans, progress tracking.  
+    </p>
+  </div>
+</div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-800  reveal-bottom">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="mb-6 text-gray-300">Let's connect! 🚀</p>
+      <p>📧 <a href="mailto:sutarpratiksha2003@gmail.com" class="hover:text-indigo-400">sutarpratiksha2003@gmail.com</a></p>
+      <p>📞 <a href="tel:+918452997293" class="hover:text-indigo-400">+91 84529 97293</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/pratiksha-sutar-ab00ab2b" target="_blank" class="hover:text-indigo-400">LinkedIn</a></p>
+      <br>
+
+    <div class="flex justify-center gap-4 mt-6">
+  <a href="resume.pdf" class="btn-view" target="_blank">📄 View Resume</a>
+  <a href="resume.pdf" class="btn-download" download>⬇️ Download Resume</a>
+</div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer>
+  <p>© 2025 Pratiksha Sutar | All Rights Reserved</p>
+  <div class="social-links">
+    <a href="https://github.com/Pratiksha10sutar" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/pratiksha-sutar-ab00ab2b " target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sutarpratiksha2003@gmail.com" target="_blank">
+  <i class="fas fa-envelope"></i>
+</a>
+
+  </div>
+</footer>
+
+
+<!-- ✅ JavaScript file -->
+  <script src="main.js"></script>
+</body>
+</html>
